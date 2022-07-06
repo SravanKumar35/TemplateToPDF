@@ -1,8 +1,6 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Template from "./templates/template";
-import { useEffect, useRef, useState } from "react";
-import { useReactToPrint } from "react-to-print";
+import {  useState } from "react";
 
 function App() {
   const [first, setFirst] = useState(false);

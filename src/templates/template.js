@@ -14,7 +14,7 @@ const Template = ({ value, print, toggleCanDownload }) => {
       handlePDF();
       toggleCanDownload();
     }
-  }, [print]);
+  }, [print, toggleCanDownload]);
 
   return (
     <>
@@ -23,16 +23,6 @@ const Template = ({ value, print, toggleCanDownload }) => {
           <hgroup>
             <h1>Template {value}</h1>
           </hgroup>
-          <nav>
-            <ul>
-              <a href="">Home</a>
-              <a href="">Advance features</a>
-              <a href=""> About</a>
-              <a href=""> contact </a>
-              <a href=""> Sign in </a>
-              <a href=""> Sign up </a>
-            </ul>
-          </nav>
         </header>
         <section>
           <h2>A Simple HTML5 Page</h2>
