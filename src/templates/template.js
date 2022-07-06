@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import ReactToPDF from "react-to-pdf";
 
-const Template3 = ({ value, print, toggleCanDownload }) => {
+const Template = ({ value, print, toggleCanDownload }) => {
   const ref = useRef(null);
   const pdfRef = useRef(null);
 
@@ -85,4 +85,4 @@ const Template3 = ({ value, print, toggleCanDownload }) => {
   );
 };
 
-export default Template3;
+export default Template;
